@@ -1,5 +1,5 @@
 // Your code here
-let url = "http://localhost:3000/films"
+let url = "https://my-json-server.typicode.com/wanjirumuigai/flatdango/films"
 
 document.addEventListener("DOMContentLoaded", () => {
   loadMovies()
