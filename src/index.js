@@ -1,7 +1,5 @@
 // Your code here
-//let url = "https://my-json-server.typicode.com/wanjirumuigai/flatdango/films"
-// Your code here
-let url = "https://jsonkeeper.com/b/FFN1"
+let url = "https://my-json-server.typicode.com/wanjirumuigai/flatdango/films"
 
 document.addEventListener("DOMContentLoaded", () => {
   loadMovies()
