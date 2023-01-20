@@ -1,6 +1,7 @@
 // Your code here
 //let url = "https://my-json-server.typicode.com/wanjirumuigai/flatdango/films"
-let url = "https://jsonkeeper.com/b/FFN1"
+// Your code here
+let url = "http://localhost:3000/films"
 
 document.addEventListener("DOMContentLoaded", () => {
   loadMovies()
@@ -101,7 +102,7 @@ function sellTicket() {
           })
     })
     .then(res => res.json())
-    .then(movieObj => console.log(movieObj))
+    .then(movieObj => movieObj)
 }
 function deleteMovie(movieID) {
     
@@ -120,3 +121,4 @@ function deleteMovie(movieID) {
     
 
 }
+
